@@ -2,10 +2,6 @@ img {
     max-width: 100%;
 }
 
-#imgsel {
-    border: goldenrod 2px solid;
-}
-
 .row {
     color: red;
 }
@@ -25,6 +21,12 @@ h2 {
     font-size: 27px;
     font-weight: bold;
     text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }
 
 body {
@@ -83,21 +85,4 @@ p {
   .divtop{
     background-color: navy;
   }
-  
-  /*.divtable{
-    text-align:center;
-    background-color: limegreen;
-    z-index:1;
-  } */
-  
-  .divbtm {
-    width:200%;
-    bottom:0;
-    background-color: red (236, 52, 82);
-    z-index:0;
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    padding: 5px;
-    margin: 0px;
-  }
+
