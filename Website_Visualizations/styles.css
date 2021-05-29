@@ -1,0 +1,103 @@
+img {
+    max-width: 100%;
+}
+
+#imgsel {
+    border: goldenrod 2px solid;
+}
+
+.row {
+    color: red;
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:navy;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+}
+
+body {
+    background-color: navy;
+    width: 100%;
+    min-height: 100%;
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+
+.navbar {
+    position: absolute;
+    right: 0px;
+}
+
+.navbar-nav {
+    background: navy;
+}
+
+.navbar a{
+    background-color: yellow;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 30px;
+    margin-left: 105px;
+    border-radius: 0px;
+    border-color: yellow;
+}
+
+.col {
+    width: 100%;
+}
+
+.homebtn {
+    background-color: yellow;
+    z-index:2;
+}
+
+/*REVIEW got from past answer*/
+.homebtn a {
+    width: 150px;
+    background: navy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin: 0px 0px 0px 40px;
+  }
+  
+  .divtop{
+    background-color: navy;
+  }
+  
+  /*.divtable{
+    text-align:center;
+    background-color: limegreen;
+    z-index:1;
+  } */
+  
+  .divbtm {
+    width:200%;
+    bottom:0;
+    background-color: red (236, 52, 82);
+    z-index:0;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+  }
